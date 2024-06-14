@@ -1,0 +1,41 @@
+body{
+    font-family:constantia;
+    background-color:rgb(138, 124, 124);
+    
+}
+
+h1{
+    
+        color: rgb(207, 204, 218);
+        text-shadow:0 0 10px rgb(180, 128, 158);
+    }
+    h2{
+    
+        color: rgb(226, 15, 15);
+        text-shadow:0 0 5px rgb(217, 238, 97);
+    }
+    @keyframes sa {
+        0%{
+            box-shadow: 0 0 10px rgb(96, 96, 221);
+        }
+        25%{
+            box-shadow: 0 0 10px rgb(146, 109, 110);
+        }
+        50%{
+            box-shadow: 0 0 10px rgb(131, 104, 123);
+        }
+        75%{
+            box-shadow: 0 0 10px rgb(83, 104, 88);
+        }
+        100%{
+            box-shadow: 0 0 10px rgb(255, 251, 0);
+        }
+
+
+    }
+img{
+    border: 2px solid white;
+    animation: sa 2s linear infinite alternate
+}
+      
+

@@ -1,0 +1,23 @@
+body{
+    font-family:constantia;
+    background-color:rgb(138, 109, 134);
+    
+}
+
+h1{
+    
+        color: rgb(0, 0, 0);
+        text-shadow:0 0 10px rgb(180, 128, 158);
+    }
+    h2{
+    
+        color: rgb(236, 231, 240);
+        
+    }
+img{
+    background-size: cover;
+    border: 3px solid white;
+    
+      
+      
+}
